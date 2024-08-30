@@ -1,0 +1,25 @@
+{
+  "name": "discord-gif-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start:dev": "nodemon --exec ts-node index.ts",
+    "build": "tsc",
+    "start": "node ./dist/index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "@giphy/js-fetch-api": "^5.6.0",
+    "@giphy/react-components": "^9.6.0",
+    "@google/generative-ai": "^0.17.1",
+    "axios": "^1.7.3",
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5",
+    "node-downloader-helper": "^2.1.9"
+  }
+}
